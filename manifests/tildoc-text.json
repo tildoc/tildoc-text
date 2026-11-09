@@ -1,0 +1,24 @@
+{
+  "name": "tildoc-text",
+  "priority": 50,
+  "access": "open",
+  "changes": ["text", "facts"],
+  "concurrency": 4,
+  "default_enabled": true,
+  "process_variants": true,
+  "token_env": "TILDOC_TEXT_TOKEN",
+  "labels": {
+    "en-us": {
+      "name": "Text extraction",
+      "opt_out": "No text extraction",
+      "fact.kind": "Text",
+      "kind.text": "Plain text",
+      "kind.pdf-digital": "Embedded directly in the file, no OCR needed",
+      "kind.pdf-scanned": "Scan without text",
+      "kind.pdf-mixed": "Partly scanned",
+      "kind.pdf-ocred": "Scan with an existing OCR layer",
+      "kind.pdf-own": "From a variant",
+      "fact.pages": "Pages"
+    }
+  }
+}
