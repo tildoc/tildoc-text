@@ -6,7 +6,8 @@
   "concurrency": 4,
   "default_enabled": true,
   "process_variants": true,
-  "token_env": "TILDOC_TEXT_TOKEN",
+  "url": "http://text:8000",
+  "url_env": "TILDOC_TEXT_URL",
   "labels": {
     "en-us": {
       "name": "Text extraction",
